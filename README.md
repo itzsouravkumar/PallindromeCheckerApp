@@ -10,16 +10,14 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **1.0**
+Current Version: **2.0**
 
-At this stage, the application:
+### ✅ What's New in Version 2.0?
 
-- Starts execution from the `main()` method
-- Displays a welcome message
-- Shows application version
-- Establishes a clean startup flow
-
-⚠️ Note: Palindrome validation logic will be implemented in future versions.
+- Uses hardcoded test strings
+- Implements complete palindrome checking logic
+- Compares original and reversed string
+- Displays whether the string is a palindrome
 
 ---
 
@@ -84,17 +82,6 @@ This project helped me practice:
     - `git push`
     - `git restore`
 - Creating and managing a GitHub repository
-
----
-
-## 📌 Future Improvements
-
-- Add palindrome checking logic
-- Accept user input
-- Implement menu-driven interface
-- Add exception handling
-- Convert into a modular OOP design
-- Add unit testing (JUnit)
 
 ---
 

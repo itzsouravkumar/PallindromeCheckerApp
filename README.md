@@ -10,16 +10,15 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **2.0**
+Current Version: **3.0 (UC3)**
 
-### ✅ What's New in Version 2.0?
+### ✅ What's New in Version 3.0?
 
-- Uses hardcoded test strings
-- Implements complete palindrome checking logic
-- Compares original and reversed string
+- Implements palindrome check by **reversing the string using a loop**
+- Uses **hardcoded test string**
+- Removes spaces and performs **case-insensitive comparison**
+- Demonstrates **string immutability and concatenation**
 - Displays whether the string is a palindrome
-
----
 
 ## 🛠️ Built With
 

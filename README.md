@@ -12,9 +12,9 @@ The **Palindrome Checker Management System** is a beginner-friendly Java applica
 
 Current Version: **5.0 (UC4)**
 
-### ✅ What's New in Version 4.0?
+### ✅ What's New in Version 5.0?
 
-- Implements palindrome check by **Stack the Logic**
+- Implements palindrome check by **Stack Logic**
 - Uses **hardcoded test string**
 - Removes spaces and performs **case-insensitive comparison**
 - Demonstrates **string immutability and concatenation**

@@ -12,7 +12,7 @@ The **Palindrome Checker Management System** is a beginner-friendly Java applica
 
 Current Version: **4.0 (UC4)**
 
-### ✅ What's New in Version 3.0?
+### ✅ What's New in Version 4.0?
 
 - Implements palindrome check by **Converting the string in Characters**
 - Uses **hardcoded test string**

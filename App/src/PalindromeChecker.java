@@ -40,7 +40,7 @@ public class PalindromeChecker {
             right--;
         }
 
-        return true; // All characters matched
+        return true;
     }
 
     public static void main(String[] args) {

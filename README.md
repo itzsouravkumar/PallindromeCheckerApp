@@ -10,11 +10,11 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **4.0 (UC4)**
+Current Version: **5.0 (UC4)**
 
 ### ✅ What's New in Version 4.0?
 
-- Implements palindrome check by **Converting the string in Characters**
+- Implements palindrome check by **Stack the Logic**
 - Uses **hardcoded test string**
 - Removes spaces and performs **case-insensitive comparison**
 - Demonstrates **string immutability and concatenation**

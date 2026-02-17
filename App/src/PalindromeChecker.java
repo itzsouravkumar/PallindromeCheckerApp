@@ -1,46 +1,50 @@
 /**
- MAIN CLASS - UseCase2PalindromeCheckerApp
- Use Case 2: Hardcoded Palindrome Validation
+ MAIN CLASS - UseCase4PalindromeCheckerApp
+
+ Use Case 4: Character Array Based Validation
+
  Description:
-  This class demonstrates basic palindrome validation
-  using a hardcoded string value.
+ This class validates a palindrome by converting
+ the string into a character array and comparing
+ characters using the two-pointer technique.
 
  At this stage, the application:
-  Stores a predefined string
-  Compares characters from both ends
-  Determines whether the string is a palindrome
-  Displays the result on the console
+ - Converts string to char array
+ - Uses start and end pointers
+ - Compares characters efficiently
+ - Displays the result
 
- This use case introduces fundamental comparison logic
- before using advanced data structures.
+ This reduces extra memory usage.
+ @author Sourav Kumar
+ @version 4.0
+ **/
 
- * @author Sourav Kumar
- * @version 2.0
-
-**/
-
+import java.util.*;
 public class PalindromeChecker {
-
     public static boolean isPalindrome(String text) {
         // Remove spaces and convert to lowercase
         String cleaned = text.replaceAll("\\s+", "").toLowerCase();
 
+        // Convert to character array
+        char[] chars = cleaned.toCharArray();
+
+        // Two-pointer approach
         int left = 0;
-        int right = cleaned.length() - 1;
+        int right = chars.length - 1;
 
         while (left < right) {
-            if (cleaned.charAt(left) != cleaned.charAt(right)) {
-                return false;
+            if (chars[left] != chars[right]) {
+                return false; // Mismatch found
             }
             left++;
             right--;
         }
-        return true;
+
+        return true; // All characters matched
     }
 
     public static void main(String[] args) {
-
-        // Hardcoded string
+        // Hardcoded test string (can change to other test cases)
         String input = "Madam";
 
         boolean result = isPalindrome(input);

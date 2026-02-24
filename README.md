@@ -10,15 +10,16 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **5.0 (UC4)**
+Current Version: **6.0 (UC6)**
 
-### ✅ What's New in Version 5.0?
+### ✅ What's New in Version 6.0?
 
-- Implements palindrome check by **Stack Logic**
-- Uses **hardcoded test string**
+- Implements palindrome check using **Queue + Stack Logic**
+- Demonstrates **FIFO vs LIFO behavior**
+- Enqueues characters in a **Queue** and pushes in a **Stack**
+- Compares **dequeue() vs pop()** to validate palindrome
 - Removes spaces and performs **case-insensitive comparison**
-- Demonstrates **string immutability and concatenation**
-- Displays whether the string is a palindrome
+- Demonstrates **Queue and Stack data structures** in Java
 
 ## 🛠️ Built With
 

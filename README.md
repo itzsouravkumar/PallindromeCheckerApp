@@ -10,16 +10,19 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **11.0 (UC11)**
+Current Version: **12.0 (UC12)**
 
-### ✅ What's New in Version 11.0?
+### ✅ What's New in Version 12.0?
 
-- Implements **encapsulation** for palindrome logic
-- Introduces **PalindromeChecker class** with `checkPalindrome()` method
-- Demonstrates **Single Responsibility Principle**
-- Internal data structure (Stack) is used privately
-- Case-insensitive and space-ignored checking
-- Reusable and modular design
+- Implements **Strategy Pattern** for dynamic algorithm selection
+- Introduces `PalindromeStrategy` interface
+- Implements multiple strategies:
+  - **StackStrategy**
+  - **DequeStrategy**
+  - **RecursiveStrategy**
+- Enables runtime selection and switching of algorithms
+- Demonstrates **interface-based polymorphism** and modular OOP design
+- Case-insensitive and space-ignored checking for all strategies
 
 ## 🛠️ Built With
 

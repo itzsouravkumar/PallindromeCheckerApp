@@ -10,18 +10,15 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-Current Version: **8.0 (UC8)**
+### ✅ What's New in Version 9.0?
 
-### ✅ What's New in Version 8.0?
-
-- Implements palindrome check using a **singly linked list**
-- Converts string to linked list nodes for character storage
-- Uses **fast and slow pointers** to find the middle of the list
-- Reverses the **second half of the list in-place** for comparison
-- Compares the two halves to validate palindrome
-- Restores the original linked list structure (optional)
-- Demonstrates **linked list data structure** and in-place algorithms in Java
-
+- Implements palindrome check using **recursion**
+- Compares characters from start and end recursively
+- Uses **base condition** to terminate recursion
+- Demonstrates **call stack behavior** in Java
+- Case-insensitive and ignores spaces
+- No additional data structures required
+- 
 ## 🛠️ Built With
 
 - Java (JDK 8+)

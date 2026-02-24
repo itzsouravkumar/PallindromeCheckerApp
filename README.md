@@ -10,15 +10,17 @@ A simple Java-based console application that serves as the foundation for a Pali
 
 The **Palindrome Checker Management System** is a beginner-friendly Java application.
 
-### ✅ What's New in Version 9.0?
+Current Version: **10.0 (UC10)**
 
-- Implements palindrome check using **recursion**
-- Compares characters from start and end recursively
-- Uses **base condition** to terminate recursion
-- Demonstrates **call stack behavior** in Java
-- Case-insensitive and ignores spaces
-- No additional data structures required
-- 
+### ✅ What's New in Version 10.0?
+
+- Implements **case-insensitive & space-ignored palindrome checking**
+- Normalizes input string using **regular expressions**
+- Removes spaces and converts to lowercase before validation
+- Applies previous palindrome checking logic (recursive, deque, or linked list)
+- Works for multi-word phrases and sentences
+- Demonstrates **string preprocessing** and **regular expressions** in Java
+
 ## 🛠️ Built With
 
 - Java (JDK 8+)
